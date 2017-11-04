@@ -4,9 +4,9 @@ Written by Leo Sauermann
 
 usage
 
-1.export your blog from your twoday.net account into a textfile (administrate>weblog>import/export)
-1.edit a lot of config on top of convert.py...
-1.run script
+1. export your blog from your twoday.net account into a textfile (administrate>weblog>import/export)
+2. edit a lot of config on top of convert.py...
+3. run script
     
 	python3 convert.py twoday_2017-09-07-export-full-txt.txt > output.xml
 	
