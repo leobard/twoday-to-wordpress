@@ -6,9 +6,8 @@ usage
 
 1. export your blog from your twoday.net account into a textfile (administrate>weblog>import/export)
 2. edit a lot of config on top of convert.py...
-3. run script
-    
-	python3 convert.py twoday_2017-09-07-export-full-txt.txt > output.xml
+3. run script `python3 convert.py twoday_2017-09-07-export-full-txt.txt > output.xml`
+4. upload the resulting output.xml to your wordpress blog using https://wordpress.org/plugins/wordpress-importer/ (preinstalled in wordpress.com)
 	
 ## What for?
 I wrote blog posts on http://leobard.twoday.net from 2004-03-26 to 2016-10-26, when I stopped blogging there. I want to keep the posts there for the record, but also move them to a self-hosted blog. I will continue blogging on a self-hosted wordpress on my private page leobard.net. It feels better for me to be able to have a copy of my blogposts I have written for years in a wordpress I host myself. I want to keep my blog my whole life and I want to keep publishing stuff in it, for example linked data. This is not possible on twoday. So I wrote a script to convert the export from twoday to wordpress. 
